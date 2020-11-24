@@ -1,0 +1,87 @@
+body {
+  background-color: hsl(185, 75%, 39%);
+  margin: 0;
+  font-size: 18px;
+}
+
+h1, h2, h3, p{
+  margin: 0;
+  padding: 3px;
+}
+
+.profile-container {
+  position: absolute;
+  top: 300px;
+  left: 725px;
+  border-radius: 25px;
+  margin: 0;
+  font-size: 0;
+}
+
+.pattern-top {
+  position: relative;
+  bottom: 500px;
+  right: 350px;
+}
+
+.pattern-bottom {
+  position: relative;
+  top: 800px;
+  left: 350px;
+}
+
+.card-top {
+  display: inline;
+}
+
+.profile-card {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  margin: 0;
+}
+
+.profile-picture {
+  border-radius: 100%;
+  text-align: center;
+  border: solid 3px;
+  border-color: white;
+  position: relative;
+  bottom: 60px;
+  margin: 0;
+}
+
+.card-middle {
+  background-color: white;
+  text-align: center;
+  height: 140px;
+  margin: 0;
+}
+
+.profile {
+  padding: 20px;
+  position: relative;
+  bottom: 60px;
+  font-size: 18px;
+}
+
+hr {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.card-bottom {
+  background-color: white;
+  font-size: 0;
+  text-align: center;
+  height: 80px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.details {
+  display: inline-block;
+  height: 80px;
+  width: 80px;
+  font-size: 18px;
+  padding: 15px;
+}
