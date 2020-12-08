@@ -1,87 +1,96 @@
-body {
-  background-color: hsl(185, 75%, 39%);
-  margin: 0;
-  font-size: 18px;
+:root {
+  --color-dark-cyan: hsl(185, 75%, 39%) ;
+  --color-very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --color-dark-greyish-blue: hsl(227, 10%, 46%);
+  --color-dark-grey: hsl(0, 0%, 59%);
 }
 
-h1, h2, h3, p{
-  margin: 0;
-  padding: 3px;
+html {
+  font-family:'Kumbh Sans', sans-serif;
 }
+
+body {
+  background: right 47vw bottom 3vh url("../images/bg-pattern-top.svg"),
+              49vw 57vh url("../images/bg-pattern-bottom.svg"),#19A1AE;
+  background-repeat: no-repeat;
+  font-size: 1.125rem;  /*18px * 0.0625 = 1.125rem*/
+}
+
+h1 {
+  font-size: 18px;
+  padding-top: 12px;
+  color: hsl(229, 23%, 23%);
+}
+
+p {
+  font-weight: 700px;
+  color: hsl(0, 0%, 59%);
+  margin-top: 8px;
+  margin-bottom: 15px;
+}
+
+span {
+  color: hsl(227, 10%, 46%);
+  font-weight: 400px;
+}
+
 
 .profile-container {
-  position: absolute;
-  top: 300px;
-  left: 725px;
-  border-radius: 25px;
-  margin: 0;
-  font-size: 0;
-}
-
-.pattern-top {
+  background-color: white;
+  max-width: 350px;
+  border-radius: 20px;
   position: relative;
-  bottom: 500px;
-  right: 350px;
-}
-
-.pattern-bottom {
-  position: relative;
-  top: 800px;
-  left: 350px;
+  top: 15.625em;
+  left: 550px;
 }
 
 .card-top {
-  display: inline;
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.profile-card {
-  border-top-right-radius: 20px;
+.card-top-image {
   border-top-left-radius: 20px;
-  margin: 0;
-}
-
-.profile-picture {
-  border-radius: 100%;
-  text-align: center;
-  border: solid 3px;
-  border-color: white;
-  position: relative;
-  bottom: 60px;
-  margin: 0;
+  border-top-right-radius: 20px;
 }
 
 .card-middle {
-  background-color: white;
-  text-align: center;
-  height: 140px;
-  margin: 0;
+  height: 150px;
+  border-bottom: 0.014em solid hsl(0, 0%, 59%);
 }
 
-.profile {
-  padding: 20px;
+.profile-image {
+  border-radius: 50%;
+  border: solid 3px white;
   position: relative;
-  bottom: 60px;
-  font-size: 18px;
+  bottom: 55px;
+  left: 125px;
 }
 
-hr {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.card-bottom {
-  background-color: white;
-  font-size: 0;
+.profile-details {
+  position: relative;
   text-align: center;
-  height: 80px;
-  border-bottom-right-radius: 20px;
-  border-bottom-left-radius: 20px;
+  bottom: 60px;
 }
+
 
 .details {
   display: inline-block;
-  height: 80px;
-  width: 80px;
-  font-size: 18px;
-  padding: 15px;
+  text-align: center;
+  padding: 3px 30px 10px 30px;
+
 }
+
+.details-description {
+  font-size: 0.812em;
+  font-weight: 30px;
+}
+
+ footer {
+  position: absolute;
+  right: 0;bottom:0;left:0;
+  text-align: center;
+  padding-bottom: 7px;
+ }
