@@ -40,8 +40,8 @@ span {
   max-width: 350px;
   border-radius: 20px;
   position: relative;
-  top: 15.625em;
-  left: 550px;
+  top: 13.625em;
+  margin: 0 auto;
 }
 
 .card-top {
